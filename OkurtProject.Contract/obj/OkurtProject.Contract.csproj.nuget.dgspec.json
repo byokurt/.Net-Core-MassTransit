@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/osmankurt/Documents/yedek/OkurtProject.Contract/OkurtProject.Contract.csproj": {}
+  },
+  "projects": {
+    "/home/osmankurt/Documents/yedek/OkurtProject.Contract/OkurtProject.Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/osmankurt/Documents/yedek/OkurtProject.Contract/OkurtProject.Contract.csproj",
+        "projectName": "OkurtProject.Contract",
+        "projectPath": "/home/osmankurt/Documents/yedek/OkurtProject.Contract/OkurtProject.Contract.csproj",
+        "packagesPath": "/home/osmankurt/.nuget/packages/",
+        "outputPath": "/home/osmankurt/Documents/yedek/OkurtProject.Contract/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/osmankurt/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[6.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
